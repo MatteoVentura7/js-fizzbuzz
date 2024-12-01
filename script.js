@@ -19,7 +19,7 @@ else  if (!(i % 3)) {
     // se la condizione viene verificata viene stampato (Fizz)
     console.log("Fizz");
 }
-// se nessuna condizione viene verificata si stampa il numero intero
+    // se nessuna condizione viene verificata si stampa il numero intero
  else {
     console.log(i);
 }
