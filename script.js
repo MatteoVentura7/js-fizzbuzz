@@ -14,6 +14,12 @@ for (let i=1; i <= 100; i++) {
     // se la condizione viene verificata viene stampato (Buzz)
     console.log("Buzz");
 }
+    // controllo se (i) sia divisibile per 3
+else  if (!(i % 3)) {
+    // se la condizione viene verificata viene stampato (Fizz)
+    console.log("Fizz");
+}
+// se nessuna condizione viene verificata si stampa il numero intero
  else {
     console.log(i);
 }
