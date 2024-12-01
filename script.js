@@ -8,7 +8,13 @@ for (let i=1; i <= 100; i++) {
  if (!(i % 3) && !(i % 5)) {
     // se la condizione viene verificata viene stampato (FizzBuzz)
     console.log("FizzBuzz");
- }  else {
+ }  
+    // controllo se (i) sia divisibile per 5
+ else  if (!(i % 5)) {
+    // se la condizione viene verificata viene stampato (Buzz)
+    console.log("Buzz");
+}
+ else {
     console.log(i);
 }
 }
